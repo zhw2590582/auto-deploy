@@ -1,0 +1,28 @@
+{
+  "name": "auto-deploy",
+  "version": "1.0.0",
+  "description": "自动部署系统",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhw2590582/auto-deploy.git"
+  },
+  "keywords": [],
+  "author": "Harvey Zack <laozhaochaguan@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zhw2590582/auto-deploy/issues"
+  },
+  "homepage": "https://github.com/zhw2590582/auto-deploy#readme",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "download-git-repo": "^1.0.2",
+    "fastify": "^1.8.0",
+    "nodemon": "^1.18.1",
+    "ora": "^2.1.0",
+    "write-json": "^3.0.1"
+  }
+}
