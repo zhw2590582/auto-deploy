@@ -20,6 +20,8 @@
   },
   "homepage": "https://github.com/zhw2590582/auto-deploy-from-git#readme",
   "dependencies": {
+    "@zeit/next-css": "^0.2.0",
+    "antd": "^3.8.0",
     "chalk": "^2.4.1",
     "download-git-repo": "^1.0.2",
     "next": "^6.1.1",
