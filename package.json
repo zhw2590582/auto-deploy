@@ -1,28 +1,35 @@
 {
-  "name": "auto-deploy",
+  "name": "auto-deploy-from-git",
   "version": "1.0.0",
   "description": "自动部署系统",
   "main": "src/index.js",
   "scripts": {
-    "start": "nodemon src/index.js"
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zhw2590582/auto-deploy.git"
+    "url": "git+https://github.com/zhw2590582/auto-deploy-from-git.git"
   },
   "keywords": [],
   "author": "Harvey Zack <laozhaochaguan@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/zhw2590582/auto-deploy/issues"
+    "url": "https://github.com/zhw2590582/auto-deploy-from-git/issues"
   },
-  "homepage": "https://github.com/zhw2590582/auto-deploy#readme",
+  "homepage": "https://github.com/zhw2590582/auto-deploy-from-git#readme",
   "dependencies": {
     "chalk": "^2.4.1",
     "download-git-repo": "^1.0.2",
-    "fastify": "^1.8.0",
-    "nodemon": "^1.18.1",
+    "next": "^6.1.1",
     "ora": "^2.1.0",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "styled-components": "^3.4.2",
     "write-json": "^3.0.1"
+  },
+  "devDependencies": {
+    "babel-plugin-styled-components": "^1.5.1"
   }
 }
